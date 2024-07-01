@@ -1,0 +1,393 @@
+/* Aturan untuk seluruh body */
+body {
+  background-image: url(back5.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  margin: 0px;
+  padding: 0px;
+  position: relative;
+}
+
+/*Judul*/
+.judul-home {
+  text-align: center;
+  display: block;
+  padding: 270px;
+}
+.judul-home h1 {
+  font-family: Georgia, Sans-Serif;
+  font-size: 30px;
+  margin-bottom: 0px;
+}
+.judul-home h2 {
+  font-family: Monospace, Sans-Serif;
+  font-size: 23px;
+  color: rgba(47, 79, 79, 1);
+  margin-top: 10px;
+}
+.font {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+.font1 {
+  color: #333;
+  margin-right: 12px;
+}
+.font2 {
+  color: white;
+}
+
+
+/* Aturan untuk font*/
+h1 {
+  font-family: Sans-Serif;
+  color: #333;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  position: flex;
+  font-size: 40px;
+}
+
+h2 {
+  font-family: Sans-Serif;
+  color: #333;
+  padding-left: 55px;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  position: flex;
+  font-size: 35px;
+}
+
+.sub-judul {
+  font-family: Sans-Serif;
+  color: #333;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  position: flex;
+}
+
+h4 {
+  position: relative;
+  left: 35px;
+}
+
+p {
+  font-family: Times New Roman;
+  text-indent: 20px;
+  padding: 15px;
+  font-size: 26px;
+}
+
+h3 {
+  font-family: Sans-Serif;
+  color: #333;
+  text-align: center;
+  margin : 0px 0px;
+  position: flex;
+  font-size: 28px;
+}
+
+/*nav*/
+.nav-bar ul{
+  list-style-type: none;
+  background-color: rgba(30, 60, 60, 0.3);
+  padding: 10px 0px;
+  margin: 0px;
+  overflow: hidden;
+}
+
+.nav-bar li {
+  float: left;
+  position: flex;
+}
+
+.nav-bar a {
+  color: rgba(38, 38, 38, 1) ;
+  text-decoration: none;
+  padding: 16px 20px;
+  display: block;
+  text-align: center;
+  font-family: 'Garamond', serif;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+.nav-bar a:hover {
+  color: #FFFFF0;
+  transition: all .3s ease-in-out;
+}
+
+/*nav untuk tugas*/
+.nav-tugas {
+  position: absolute;
+  right: 50px;
+}
+.nav-tugas a{
+  color: #FFFFF0;
+}
+.nav-tugas a:hover {
+  color: black;
+}
+.nav-tugas .drop-down li {
+  list-style: none;
+  cursor: pointer;
+}
+nav .nav-tugas .drop-down {
+    display: none;
+    padding-left: 7px;
+}
+nav ul li:hover .drop-down {
+  padding: 0.5rem 0;
+  display: block;
+  position: absolute;
+}
+.drop-down li{
+  margin-top: 2rem;
+}
+.drop-down a{
+  font-size: 13px;
+  color: black;
+}
+.drop-down a:hover{
+  color: #FFFFF0;
+}
+
+/*logo atas*/
+.logo {
+  text-align: center;
+}
+
+.logo img {
+  padding: 30px 10px;
+  height: 25px;
+  outline: none;
+}
+
+.logo img:hover {
+  opacity: 0.5;
+}
+
+/* Aturan untuk formulir */
+form {
+  margin: 20px auto;
+  padding: 20px;
+  width: 85%;
+  background-color: rgba(240, 248, 255, 0.8);
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  margin-bottom: 30px;
+}
+
+/* Aturan untuk setiap grup dalam formulir */
+.form-group {
+  margin-bottom: 50px;
+}
+
+label {
+  display: inline-block;
+  width: 195px;
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+/* Aturan untuk input teks, angka, email dan tanggal*/
+input[type="text"], input[type="number"], input[type="email"] {
+  padding: 6px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 15px; /* Menambahkan jarak spasi bawah */
+  width: 30%;
+  margin-right:25px;
+  font-size: 20px;
+}
+
+input[type="date"] {
+  padding: 6px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  width: 30%;
+  font-size: 20px;
+}
+
+/* Aturan untuk radio dan checkbox */
+input[type="radio"], input[type="checkbox"] {
+  margin-right: 6px;
+  margin-bottom: 15px;
+  transform: scale(1.4);
+}
+
+/*Atutan untuk select*/
+select {
+  padding: 6px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 30%; /* Ukuran yang sama */
+  font-size: 17px;
+  box-sizing: border-box;
+  margin-bottom: 15px;
+}
+
+placeholder {
+  font-size: 16px;
+}
+
+/* Aturan untuk button submit */
+.simpan-register button {
+  background-color: #16dfee;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+.simpan-register button:hover {
+  background-color: #0bb8d1;
+  transition: all .2s ease-in-out;
+}
+
+/*Aturan untuk about*/
+.about-container {
+  padding-top: 75px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icons {
+  display: flex;
+  flex-direction: column;
+}
+
+.icon-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+
+.about-container p {
+  color: white;
+  margin: auto;
+  font-size: 24px;
+  font-family: helvetica, Sans-Serif;
+  font-weight: bold;
+}
+
+/*aturan untuk icon about*/
+.icon {
+  text-decoration: none;
+  color: white;
+  background: #3b5998;
+  align-items: center;
+  justify-content: center;
+  width: 80px;
+  height: 80px;
+  display: flex;
+  border-radius: 50%;
+  transition: background 0.3s;
+}
+.icon.facebook {
+  background: linear-gradient(45deg, #3b5998, #4a69ad);
+}
+.icon.instagram {
+  background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+}
+.icon.whatsapp {
+  background: linear-gradient(45deg, #00E676, #00C853);
+}
+.icon.email {
+    background: linear-gradient(45deg, #D44638, #FF6F61);
+}
+
+.icon.phone {
+    background: linear-gradient(45deg, #1E90FF, #00BFFF);
+}
+.icon:hover {
+  opacity: 0.7;
+}
+.icon i {
+  font-size: 30px;
+}
+
+/*Pengaturan profile*/
+table {
+  border: 1px solid black;
+  border-radius: 5px;
+  justify-content: center;
+  display: flex;
+  margin: auto;
+  background-color: rgba(240, 248, 255, 0.7);
+}
+td{
+  font-size: 25px;
+  font-weight: bold;
+  font-family: Sans-Serif;
+  color: #333;
+  padding: 20px 20px;
+}
+.biodata {
+  opacity: 0.8;
+}
+.profile-deskripsi {
+  position: relative;
+  left: 35px;
+  font-size: 25px;
+}
+.profile-p {
+  position: relative;
+  padding: 15px;
+  font-size: 20px;
+}
+
+/*Pengaturan galeri*/
+.gallery {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 10px;
+  padding: 20px;
+}
+.photo {
+  border: solid 5px #6666;
+  border-radius: 20px;
+  margin: auto;
+  width: 98%;
+  aspect-ratio: 1/1;
+  overflow: hidden;
+  position: relative;
+}
+.photo:hover img {
+  transform: scale(1.05);
+}
+.photo .caption {
+  opacity: 0;
+  position: absolute;
+  z-index: 1;
+  background-color: rgba(0, 0, 0, 0.279);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+  font-weight: bold;
+  color: white;
+  font-family: Sans-Serif;
+  transition: all 600ms ease-in-out;
+}
+.photo:hover .caption {
+  opacity: 1;
+}
+.photo img {
+  width: 100%;
+  object-fit: cover;
+  aspect-ratio: 1/1;
+  transition: all 600ms ease-in-out;
+}

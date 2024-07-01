@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kerel's Site</title>
+   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="kaltab.css">
+    <script src="script.js"></script>
+</head>
+<body>
+            <div class="logo">
+                <a href="index.html"><img src="kerel.png" alt="there something wrong"></a>
+            </div>
+            <nav class="nav-bar">
+            <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="profil.html">Profile</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="about.html">About</a></li>
+            <li class="nav-tugas"><a href="">Tugas
+            </a>
+            <br>
+            <ul class="drop-down">
+              <li><a href="table.html">Table</a></li>
+              <li><a href="register.html">Register</a></li>
+              <li><a href="kalkulator.html">Kalkulator</a></li>
+              <li><a href="bootstrap.html">formulir bootstrap</a></li>
+            </ul></li>
+            </ul>
+            </nav>
+<h1>Kalkulator</h1>
+    <div class="kalkulator">
+          <input type="number" id="angka1" placeholder="angka pertama">
+        <input type="number" id="angka2" placeholder="angka kedua">
+        <div class="button-kal">
+        <button onclick="resetDisplay()">C</button>
+        <button onclick="tambah()">+</button>
+        <button onclick="kurang()">-</button>
+        <button onclick="bagi()">÷</button>
+        <button onclick="kali()">×</button>
+        </div>
+        <p class="" id="hasil"></p>
+        </div>
+        <div class="container">
+          <p>
+            *kalkulator ini mampu melibatkan dua bilangan angka
+          </p>
+        </div>
+    </body>
+    </html>
